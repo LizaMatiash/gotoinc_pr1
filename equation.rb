@@ -11,5 +11,5 @@ if dis < 0
 elsif dis = 0
   puts "D = 0, x1 = x2 = #{ -b / (2 * a)}"
 else
-  puts "D > 0, x1 = #{(-b + c) / (2 * a) }, x2 = #{(-b - c) / (2 * a)}"
+  puts "D > 0, x1 = #{(-b + Math.sqrt(dis)) / (2 * a) }, x2 = #{(-b - Math.sqrt(dis)) / (2 * a)}"
 end
